@@ -350,7 +350,7 @@ ul.nptabbs{display:none}
 .chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
 .contactForm .cta-btn{margin:20px 0 0;width:100%;padding:5px}
 .contactForm .treatment_all_heading_page{text-align:center}
-.chat-popup .form_subhedign,.contactForm .form_subhedign{font-size:18px;text-align:center;color:#a57404;line-height:normal;font-weight:700}
+.chat-popup .form_subhedign,.contactForm .form_subhedign{font-size:18px;text-align:center;color:#986b02;line-height:normal;font-weight:700}
 }
 .form-top-new{padding:15px 15px 0 15px}
 #form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
