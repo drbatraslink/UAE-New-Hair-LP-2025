@@ -1,0 +1,358 @@
+@import url('../fonts/inter.css');
+
+body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color:#000000}
+*{font-family:Inter,sans-serif;font-weight:400}
+html{scroll-behavior:smooth}
+.font-500{font-weight:500!important}
+.form-control{border:1px solid #656565}
+.select2-container{z-index:9999}
+.treatment_all_comm_div p{font-size:18px;color:#000;font-weight:300;line-height:auto}
+@media (max-width:1440px){
+.treatment_all_comm_div p{font-size:16px;color:#000}
+}
+header{background:#fff;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-shadow:0 4px 10px 0 rgba(0,0,0,.06)}
+@media (max-width:600px){
+header{background:#fff;position:fixed;top:0;z-index:1000!important}
+}
+.terms-con-font-cls{color:#1a75ac}
+.carousel-indicators li{background-color:#2876a9;opacity:1}
+.carousel-indicators .active{background-color:#e41225;opacity:1}
+.head-main-tel{color:#212121;font-weight:500;text-decoration:none;margin-bottom:0}
+.head-main-tel:hover{color:#173b63;text-decoration:none}
+.headerno-cls{font-size:24px;font-weight:400;color:#0c4679;margin-bottom:0;float:right;border:1px solid #0c4679;padding:6px 15px;border-radius:25px;line-height:normal}
+.mobile-call-icon{border:1px solid #212121;text-align:center;padding:6px;border-radius:20px;width:36px;height:36px;line-height:22px;float:right}
+.treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#212121;font-weight:300;text-align:center}
+.treatment_all_heading_page small{font-size:21px}
+.treatment_all_heading_page span{color:#173d5b;font-weight:600}
+@media (max-width:1440px){
+.treatment_all_heading_page{font-size:30px}
+}
+@media (max-width:1280px){
+.treatment_all_heading_page{font-size:28px}
+}
+@media (max-width:600px){
+.treatment_all_heading_page{font-size:24px}
+.treatment_all_heading_page small{font-size:18px}
+}
+.cta-btn{width:300px;text-align:center;margin:20px auto 0;padding:8px 30px;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);align-items:center;display:block;gap:4px;color:#fff;font-size:21px;font-weight:600;border-radius:8px}
+@keyframes bounce{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-5px)}
+}
+.cta-btn img{animation:bounce 2s infinite}
+.cta-btn:hover{color:#fff}
+@media (max-width:600px){
+.cta-btn{width:100%;font-size:18px;margin:10px auto 0}
+}
+#formbook{transition:margin-top .3s ease;scroll-margin-top:70px}
+/*==========================================*/
+/* New Banner css*/
+/*==========================================*/
+.banner-section{background:url(../images/banner-bg-hair.webp) top center no-repeat}
+.banner-section .banner-content{background:rgb(5 34 56 / 80%);padding:30px 20px;margin-top:70px;margin-bottom:70px;border-radius:24px}
+.banner-section .banner-content h1{font-size:16px;color:#fff;font-weight:400}
+.banner-section .banner-content h2{font-size:28px;color:#fff;font-weight:700}
+.banner-section .banner-content p{font-size:18px;color:#fff;font-weight:400}
+.banner-section .banner-content .most-loved-para{font-size:14px;margin-bottom:0;margin-top:15px}
+.banner-section .google-review{padding:5px;position:absolute;right:0;top:80px;background:linear-gradient(270deg,#173d5b 30%,#0d2334 100%);border-radius:40px 0 0 40px;display:inline-flex;align-items:center}
+.banner-section .google-review p{margin-bottom:0;margin-left:5px;font-size:12px;color:#fff;line-height:21px;font-weight:600}
+.banner-section .whatsapp-btn{margin-top:20px;padding:8px 12px;background-color:#17cd40;align-items:center;display:inline-flex;gap:4px;color:#fff;font-size:14px;font-weight:600;border-radius:8px}
+.whatsapp-icon{width:24px;height:24px}
+.google-icon{width:42px;height:42px}
+@media (min-width:768px){
+.whatsapp-icon{width:28px;height:28px}
+.google-icon{width:52px;height:52px}
+}
+@media (max-width:1280px){
+.banner-section .banner-content h1{font-size:16px;color:#fff;font-weight:400}
+.banner-section .banner-content h2{font-size:24px;color:#fff;font-weight:700}
+.banner-section .banner-content p{font-size:16px;color:#fff;font-weight:400}
+.banner-section .banner-content .most-loved-para{font-size:14px;margin-bottom:0;margin-top:5px}
+.banner-section .whatsapp-btn{font-size:12px}
+}
+@media (max-width:600px){
+.banner-section{background:url(../images/banner-bg-hair-mob.webp) bottom center no-repeat;background-size:cover}
+.banner-section .banner-content h1{font-size:14px}
+.banner-section .banner-content h2{font-size:24px}
+.banner-section .banner-content p{margin-bottom:15px}
+.banner-section .whatsapp-btn{font-size:12px;padding:6px;margin-bottom:15px;margin-top:15px}
+.banner-section .google-review p{font-size:10px}
+.banner-section .banner-content{margin-top:150px;margin-bottom:270px;padding:15px}
+}
+
+/*==========================================*/
+/* Offer css*/
+/*==========================================*/
+.offer-background-sec-new{background-color:#d8c495;padding-top:20px;padding-bottom:20px}
+.border-right-css-n-band{border-right:1px solid #fff}
+.blue-band-padding-new-css{padding:0 10px;display:inline-flex;align-items:flex-end}
+.blue-band-offer-heading{margin-bottom:0;font-size:21px;color:#173d5b;font-weight:600;line-height:normal;text-align:left}
+.percntageband-heading{font-size:24px;font-weight:700;color:#173d5b;margin-bottom:0;line-height:22px}
+.offer-new-para-css{margin-bottom:0;color:#212121;font-size:16px;line-height:normal;font-weight:500}
+.blue-band-padding-new-css img{width:50px;height:50px;margin-right:10px}
+@media(max-width:1280px){
+.blue-band-padding-new-css{padding:8px}
+.offer-new-para-css{font-size:14px}
+.percntageband-heading{font-size:21px;font-weight:700;color:#173d5b;margin-bottom:0;line-height:18px}
+.blue-band-padding-new-css img{width:42px;height:42px;margin-right:8px}
+.blue-band-offer-heading{font-size:20px}
+}
+@media(max-width:1024px){
+.blue-band-padding-new-css img{width: 36px;height: 36px;margin-right:8px}
+.percntageband-heading{font-size: 18px;font-weight:700;color:#173d5b;margin-bottom:0;line-height:18px}
+.small_white_offer_offer{float:right;font-size:8px;font-weight:600;color:#212121;margin-top:0}
+.blue-band-offer-heading{font-size:16px}
+.offer-new-para-css{font-size:12px}
+}
+@media(max-width:600px){
+.offer-new-para-css{margin-bottom:0;font-size:14px;line-height:normal}
+.blue-band-offer-heading{font-size:18px;text-align:center;margin-bottom:5px}
+.blue-band-padding-new-css{padding:10px 15px}
+}
+@media(max-width:400px){
+.offer-new-para-css{font-size:11px}
+}
+.small_white_offer_offer{float:right;font-size:10px;font-weight:600;color:#212121;margin-top:0}
+@media(max-width:768px){
+.small_white_offer_offer{font-size:6px}
+}
+@media(max-width:600px){
+.small_white_offer_offer{float:right;font-size:8px;font-weight:600;margin-bottom:0}
+}
+
+/*==========================================*/
+/* Before After Images Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.before_after_slider{padding-top:40px}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-dots{display:none}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-item img{width:100%}
+.treatment_all_comm_div .screenshot_slider .owl-prev,.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.treatment_all_comm_div.before_after_slider{padding-top:40px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-nav{position:relative;display:flex;justify-content:center;margin-top:15px;margin-bottom:0}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next,.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{position:relative;background-color:transparent;font-size:30px;color:#000;border:none}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-nav button{margin:0 5px}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-prev{left:0}
+.treatment_all_comm_div.before_after_slider .screenshot_slider .owl-next{right:0}
+}
+
+
+/*==========================================*/
+/* Hair Treatment Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.hair_treatment_section{padding-top:40px}
+.treatment_all_comm_div.hair_treatment_section .hairtreatmnt_slider .owl-dots{display:none}
+.treatment_all_comm_div.hair_treatment_section .hairtreatmnt_slider .owl-item img{width:100%}
+.treatment_all_comm_div .hairtreatmnt_slider .owl-prev,.treatment_all_comm_div.hair_treatment_section .hairtreatmnt_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.hair_treatment_section .hairtreatmnt_slider .owl-nav{display:none}
+.treatment_all_comm_div.hair_treatment_section .image-container{position:relative;display:inline-block;width:100%;max-width:600px}
+.treatment_all_comm_div.hair_treatment_section .image-container img{display:block;width:100%;height:auto}
+.treatment_all_comm_div.hair_treatment_section .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgb(6 35 57 / 65%);z-index:1}
+.treatment_all_comm_div.hair_treatment_section .centered-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;font-size:21px;line-height:normal;font-weight:700;text-align:center;z-index:2}
+@media(max-width:1480px){
+.centered-text{font-size:18px}
+}
+@media (max-width:600px){
+.treatment_all_comm_div.hair_treatment_section .image-container img{height:270px;object-fit:cover}
+}
+@media(max-width:768px){
+.treatment_all_comm_div.hair_treatment_section{padding-top:40px}
+}
+
+/*==========================================*/
+/* Our Doctor Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.our_doctors_slider_section{padding-top:40px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-dots{display:none}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item{background-color:#f2f2f2;border-radius:16px;text-align:center;padding:30px 15px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_name{font-size:21px;color:#173d5b;font-weight:600;margin-bottom:15px;margin-top:20px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_designation{color:#212121;font-size:18px;font-weight:600;margin-bottom:10px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_para{font-size:16px;color:#212121;margin-bottom:5px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item img{width:150px;height:150px;margin:auto;background-color:#d8c495;border:7px solid #e8e0cd}
+.treatment_all_comm_div .doctors_slider .owl-prev,.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.treatment_all_comm_div.our_doctors_slider_section{padding-top:40px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-nav{position:relative;display:flex;justify-content:center;margin-top:15px;margin-bottom:0}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next,.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-prev{position:relative;background-color:transparent;font-size:30px;color:#000;border:none}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-nav button{margin:0 5px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-prev{left:0}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next{right:0}
+}
+
+/*==========================================*/
+/* Clinic Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.clinic_slider_section{margin-top:50px;background:url(../images/clinic-bg.webp) center center no-repeat;padding:30px 0 40px 0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-dots{display:none}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item{background-color:#fff;border-radius:12px;text-align:left;padding:0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item img{width:100%;border-radius:12px 12px 0 0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item .content_clinc{padding:15px}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item .clinic_heding{font-size:21px;color:#212121;font-weight:600;margin-bottom:5px}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item .clinic_para{color:#757575;font-size:14px;margin-bottom:0;font-weight:400}
+.treatment_all_comm_div .clinic_slider .owl-prev,.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.treatment_all_comm_div.clinic_slider_section{margin-top:40px;padding-top:30px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-nav{position:relative;display:flex;justify-content:center;margin-top:15px;margin-bottom:0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-next,.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-prev{position:relative;background-color:transparent;font-size:30px;color:#000;border:none}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-nav button{margin:0 5px}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-prev{left:0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-next{right:0}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item .clinic_heding{font-size:18px}
+.treatment_all_comm_div.clinic_slider_section .clinic_slider .owl-item .clinic_para{font-size:12px}
+}
+
+/*==========================================*/
+/* Google Slider css*/
+/*==========================================*/
+.treatment_all_comm_div.google_slider_section{padding:30px 0 50px 0}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-dots{display:none}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item{margin-top:10px;margin-bottom:10px;background-color:#fff;border-radius:8px;text-align:left;padding:0;box-shadow:0 1px 12px 0 #eee;border:1px solid #fff}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .content_google{padding:15px;height:390px;max-height:420px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .content_google img{width:100px;padding-top:5px;padding-bottom:5px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .google_heding{font-size:21px;color:#212121;font-weight:600;margin-bottom:0}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .google_para{color:#757575;font-size:14px;margin-bottom:0;font-weight:400}
+.treatment_all_comm_div .google_slider .owl-prev,.treatment_all_comm_div.google_slider_section .google_slider .owl-next{position:absolute;top:-5px;height:100%}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-prev{left:-15px;background-color:transparent!important}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.treatment_all_comm_div.google_slider_section{padding-top:30px}
+}
+@media(max-width:600px){
+.treatment_all_comm_div.google_slider_section{padding-top:40px;padding-bottom:30px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-nav{position:relative;display:flex;justify-content:center;margin-top:15px;margin-bottom:0}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-next,.treatment_all_comm_div.google_slider_section .google_slider .owl-prev{position:relative;background-color:transparent;font-size:30px;color:#000;border:none}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-nav button{margin:0 5px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-prev{left:0}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-next{right:0}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .google_heding{font-size:18px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .google_para{font-size:12px}
+.treatment_all_comm_div.google_slider_section .google_slider .owl-item .content_google{padding:15px;height:280px;max-height:300px}
+}
+
+/*==========================================*/
+/* Tab section css*/
+/*==========================================*/
+.tab_aligment_section{padding-top:40px}
+ul.nptabbs{margin:0;padding:0;float:left;list-style:none;width:100%;align-items:center;display:flex;align-items:center;gap:15px}
+ul.nptabbs li{background:#f2f2f2;float:left;width:33.33%;cursor:pointer;padding:8px 0;text-align:center;font-size:18px;font-weight:500;line-height:20px;border-radius:8px;color:#212121;position:relative}
+ul.nptabbs li img{filter:brightness(0) invert(0)}
+ul.nptabbs li:hover{background:#d8c495;padding:8px 0;color:#173d5b;font-weight:600;box-shadow:0 1px 12px 0 #eee;border-radius:8px}
+ul.nptabbs li:hover img{filter:none}
+ul.nptabbs li.active{background:#d8c495;padding:8px 0;color:#173d5b;font-weight:600}
+ul.nptabbs li.active img{filter:none}
+.tabb_container{margin-top:15px;border:1px solid #fff;border-top:none;clear:both;width:100%;background:rgb(255 255 255 / 40%);overflow:auto}
+.tabb_content{padding:15px;display:none;overflow:hidden;border:1px solid #f2f2f2;border-radius:12px;margin-top:15px}
+.tabb_content ul{margin-top:15px}
+.tabb_content img{border-radius:12px}
+.tabb_content p,.tabb_content ul li{font-size:16px;color:#212121;margin-bottom:12px}
+.tabb_content ul li:last-child{margin-bottom:0}
+.tabb_content ul li::marker{color:#173d5b;font-size:18px}
+.tabb_drawer_heading{display:none}
+@media(max-width:600px){
+.tabb_content ul{margin-bottom:0}
+ul.nptabbs{display:none}
+.tabb_drawer_heading{background:#f2f2f2;border-radius:6px;color:#212121;font-size:18px;font-weight:600;margin:5px 0;padding:5px 20px;display:block;cursor:pointer;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.tabb_drawer_heading img{filter:brightness(0) invert(0);margin-right:8px}
+.d_active{background:#d8c495;color:#173d5b}
+.d_active img{filter:none}
+.tabb_container{box-shadow:none;border:none;margin-top:0;background-color:#fff}
+.tabb_content{padding:10px;margin-bottom:20px;border:1px solid #f2f2f2;background:#fff}
+.tabb_content img{margin-bottom:15px}
+}
+
+/*==========================================*/
+/* Footer css*/
+/*==========================================*/
+.addressSection{background-color:#173d5b;color:#fff}
+.addressSection .location-block h3{font-size:14px;font-weight:600}
+.addressSection .location-block p{font-size:13px;margin-bottom:0}
+.addressSection .location-block p span{font-weight:500}
+@media (max-width:575.98px){
+.fade-bg{background:#fffefa;opacity:.9}
+.addressSection .location-block p{font-size:14px}
+.addressSection .location-block p br{display:none}
+}
+.text-play-btn-img{width:30px!important;margin-right:10px!important}
+.popup-vimeo:hover{text-decoration:none}
+.para-google-rationg-op{background-color:#fff;height:55px;position:relative;z-index:999;color:#fff}
+@media (max-width:575.98px){
+.mfp-iframe-holder .mfp-content{width:100%;max-width:100%;height:100%}
+}
+.footer{background:#173d5b;color:#fff;font-size:13px;padding:15px 0;font-weight:500!important;border-top:1px solid #fff}
+.copyright{font-weight:500}
+.footerLink ul{padding:0;margin:0;list-style:none}
+.footerLink ul li{display:inline}
+.footerLink ul li a{display:inline-block;color:#fff;font-weight:500;padding:0 15px;position:relative;text-decoration:none}
+.footerLink ul li a:hover{text-decoration:none}
+.footerLink ul li a:after{content:'';height:100%;position:absolute;right:-5px;top:50%;width:5px;height:5px;display:inline-block;background:#fff;border-radius:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
+.footerLink ul li:last-child a:after{content:none;display:none}
+.social-media a{padding:5px;margin:0 5px;font-weight:500}
+@media (max-width:575.98px){
+.footer{margin-bottom:52px}
+.footerLink ul li:nth-child(2) a:after{content:none;display:none}
+}
+
+/*==========================================*/
+/* Contact css*/
+/*==========================================*/
+.form_section{margin-top:50px;border-top:1px solid #f2f2f2;border-bottom:1px solid #f2f2f2}
+.error{color:red!important;font-size:12px;margin-bottom:0}
+.contactForm .treatment_all_heading_page{text-align:left}
+.contactForm .cta-btn{margin:20px 0 0;width:250px}
+.contactForm .form_lable{font-size:14px;color:#173d5b;font-weight:600;margin-bottom:5px}
+.contactForm .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#d9d9d9;border-radius:6px;font-size:14px;padding:5px 10px}
+.contactForm .form-control:focus{border-color:#0073ad}
+.contactForm .form_subhedign{color:#b99863;font-size:24px;font-weight:600;margin-bottom:10px;line-height:normal}
+.contactForm select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
+.contactForm select.form-control::-ms-expand{display:none}
+.contactForm .row{margin-bottom:1rem}
+.form-check{padding-left:20px;margin-top:5px}
+.contactForm .form-check-label{font-size:12px}
+.contactForm .form-check-label a{color:#0e74af}
+.contactForm .form-action{text-align:center;padding-top:15px}
+.btn-primary{outline:0;border:none;font-weight:400;text-transform:uppercase;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px;box-shadow:0 2px 5px rgba(0,0,0,.3)!important;transition:.5s;outline:0!important}
+.btn-primary:hover{background:#d5d0c9!important;color:#000!important}
+.form-para-text{font-size:14px;font-weight:500}
+.form-select{color:#495057}
+.chat-popup .form_lable{font-size:14px;color:#173d5b;font-weight:600;margin-bottom:5px}
+.chat-popup .form-check-label{font-size:10px}
+.chat-popup .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#d9d9d9;border-radius:6px;font-size:14px;padding:5px 10px}
+.chat-popup .form-control:focus{border-color:#0073ad}
+.chat-popup select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
+.chat-popup select.form-control::-ms-expand{display:none}
+.chat-popup .row{margin-bottom:1rem}
+.chat-popup .form-check-label a{color:#0e74af}
+.chat-popup .form-action{text-align:center;padding-top:15px}
+.open-button{z-index:9;display:none;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);color:#fff;padding:10px 12px;border:none;cursor:pointer;position:fixed;bottom:18px;right:19px;width:250px;font-weight:500;font-size:18px;line-height:20px}
+.chat-popup{width:320px;display:none;position:fixed;bottom:0;right:15px;z-index:9}
+.form-container{background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:5px}
+.form-container .cancel{position:absolute;right:-12px;top:-22px;width:45px;height:45px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
+.form-container .btn:hover,.open-button:hover{opacity:1}
+@media (max-width:1480px){
+.contactForm .form_subhedign{font-size:21px}
+}
+@media (max-width:600px){
+.form_section{margin-top:30px}
+.open-button{display:block;height:52px;background-color:#e41225;color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px}
+.open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
+.chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:9}
+.contactForm .cta-btn{margin:20px 0 0;width:100%;padding:5px}
+.contactForm .treatment_all_heading_page{text-align:center}
+.chat-popup .form_subhedign,.contactForm .form_subhedign{font-size:18px;text-align:center;color:#b99863;line-height:normal;font-weight:600}
+}
+.form-top-new{padding:15px 15px 0 15px}
+#form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
+
+
