@@ -1,3 +1,16 @@
+// Function to enhance carousel nav accessibility
+function enhanceCarouselAccessibility() {
+  $('.owl-nav .owl-prev, .owl-nav .owl-next')
+    .attr('role', 'button')
+    .attr('tabindex', '0')
+    .on('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        $(this).trigger('click');
+      }
+    });
+}
+
 // Screenshot carousel initialization
 $('.screenshot_slider').owlCarousel({
   loop: true,
@@ -20,7 +33,7 @@ $('.screenshot_slider').owlCarousel({
   },
 });
 
-// Screenshot carousel initialization
+// Doctors carousel initialization
 $('.doctors_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
@@ -42,7 +55,7 @@ $('.doctors_slider').owlCarousel({
   },
 });
 
-// Screenshot carousel initialization
+// Hair treatment carousel initialization
 $('.hairtreatmnt_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
@@ -64,7 +77,7 @@ $('.hairtreatmnt_slider').owlCarousel({
   },
 });
 
-// Screenshot carousel initialization
+// Clinic carousel initialization
 $('.clinic_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
@@ -86,7 +99,7 @@ $('.clinic_slider').owlCarousel({
   },
 });
 
-// Screenshot carousel initialization
+// Google review carousel initialization
 $('.google_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
@@ -96,8 +109,8 @@ $('.google_slider').owlCarousel({
   autoplayTimeout: 4000,
   smartSpeed: 400,
   navText: [
-    "<img src='images/previmage.webp' alt='004 prev' width='50' height='50' />",
-    "<img src='images/nextimage.webp' alt='004 next' width='50' height='50' />",
+    "<img src='images/previmage.webp' alt='005 prev' width='50' height='50' />",
+    "<img src='images/nextimage.webp' alt='005 next' width='50' height='50' />",
   ],
   responsive: {
     0: { items: 1 },
@@ -108,66 +121,66 @@ $('.google_slider').owlCarousel({
   },
 });
 
+// Apply accessibility enhancement after all carousels are initialized
+enhanceCarouselAccessibility();
 
-
-  /*** 3. Tab Functionality ***/
-  function setupTabs() {
-    $(".tabb_content").hide().first().show();
-    $("ul.nptabbs li").on("click", function () {
-      const target = $(this).attr("rel");
-      $(".tabb_content").hide();
-      $("#" + target).fadeIn();
-      $("ul.nptabbs li").removeClass("active");
-      $(this).addClass("active");
-      $(".tabb_drawer_heading").removeClass("d_active");
-      $(".tabb_drawer_heading[rel='" + target + "']").addClass("d_active");
-    });
-
-    $(".tabb_drawer_heading").on("click", function () {
-      const target = $(this).attr("rel");
-      $(".tabb_content").hide();
-      $("#" + target).fadeIn();
-      $(".tabb_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
-      $("ul.nptabbs li").removeClass("active");
-      $("ul.nptabbs li[rel='" + target + "']").addClass("active");
-    });
-
-    $("ul.nptabbs li").last().addClass("tabb_last");
-  }
-
-  function tabControl() {
-    const tabs = $(".tabbed-content .tabs");
-    if (tabs.is(":visible")) {
-      tabs.find("a").on("click", function (e) {
-        e.preventDefault();
-        const target = $(this).attr("href");
-        tabs.find("a").removeClass("active");
-        $(".tabbed-content .item").removeClass("active");
-        $(this).addClass("active");
-        $(target).addClass("active");
-      });
-    } else {
-      $(".tabbed-content .item").on("click", function () {
-        const target = $(this).attr("id");
-        const parent = $(this).parents(".tabbed-content");
-        parent.find(".tabs a").removeClass("active");
-        parent.find(".item").removeClass("active");
-        $(this).addClass("active");
-        parent.find(`.tabs a[href="#${target}"]`).addClass("active");
-      });
-    }
-  }
-
-  setupTabs();
-  tabControl();
-
-  let resizeTimer;
-  $(window).on("resize", function () {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(tabControl, 250);
+/*** 3. Tab Functionality ***/
+function setupTabs() {
+  $(".tabb_content").hide().first().show();
+  $("ul.nptabbs li").on("click", function () {
+    const target = $(this).attr("rel");
+    $(".tabb_content").hide();
+    $("#" + target).fadeIn();
+    $("ul.nptabbs li").removeClass("active");
+    $(this).addClass("active");
+    $(".tabb_drawer_heading").removeClass("d_active");
+    $(".tabb_drawer_heading[rel='" + target + "']").addClass("d_active");
   });
 
+  $(".tabb_drawer_heading").on("click", function () {
+    const target = $(this).attr("rel");
+    $(".tabb_content").hide();
+    $("#" + target).fadeIn();
+    $(".tabb_drawer_heading").removeClass("d_active");
+    $(this).addClass("d_active");
+    $("ul.nptabbs li").removeClass("active");
+    $("ul.nptabbs li[rel='" + target + "']").addClass("active");
+  });
+
+  $("ul.nptabbs li").last().addClass("tabb_last");
+}
+
+function tabControl() {
+  const tabs = $(".tabbed-content .tabs");
+  if (tabs.is(":visible")) {
+    tabs.find("a").on("click", function (e) {
+      e.preventDefault();
+      const target = $(this).attr("href");
+      tabs.find("a").removeClass("active");
+      $(".tabbed-content .item").removeClass("active");
+      $(this).addClass("active");
+      $(target).addClass("active");
+    });
+  } else {
+    $(".tabbed-content .item").on("click", function () {
+      const target = $(this).attr("id");
+      const parent = $(this).parents(".tabbed-content");
+      parent.find(".tabs a").removeClass("active");
+      parent.find(".item").removeClass("active");
+      $(this).addClass("active");
+      parent.find(`.tabs a[href="#${target}"]`).addClass("active");
+    });
+  }
+}
+
+setupTabs();
+tabControl();
+
+let resizeTimer;
+$(window).on("resize", function () {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(tabControl, 250);
+});
 
 // Open & Close Form
 function openForm() {
