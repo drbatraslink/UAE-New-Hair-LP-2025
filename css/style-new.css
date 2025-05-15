@@ -40,7 +40,7 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 0%,100%{ background: linear-gradient(135deg, #970000 0, #ed0202 25%, #f70000 50%, #ed0202 75%, #970000 100%); color: #ffffff; border:1px solid #ed0202;}
 50%{ background: transparent; color: #ed0202; border:1px solid #ed0202;}
 }
-.cta-btn img{animation:bounce 2s infinite}
+.cta-btn img{animation:bounce 1.9s infinite}
 @keyframes bounce{
 0%,100%{transform:translateY(0);filter: brightness(0) invert(1);}
 50%{transform:translateY(-5px); filter: brightness(0) saturate(100%) invert(12%) sepia(98%) saturate(7500%) hue-rotate(0deg);}
