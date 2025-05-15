@@ -390,9 +390,9 @@ ul.nptabbs{display:none}
 /*==========================================*/
 /* back to top css*/
 /*==========================================*/
-.whatsAppBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;/* line-height:52px; */width:48px;position:fixed;bottom:20px;right:10px;z-index:100;opacity:0;transform:translateY(100px);/* transition:all .5s ease; */box-shadow:0 4px 15px rgb(175 173 173 / 18%);}
+.whatsAppBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;width:46px;position:fixed;bottom:20px;right:10px;z-index:100;opacity:0;transform:translateY(100px);box-shadow:0 4px 15px rgb(175 173 173 / 18%);background-color:#3ca82b}
 .whatBtn{opacity:1;transform:translateY(0)}
-.whatsAppBtn img{/* padding:10px; *//* margin-right:12px; *//* background-color:#25D366; *//* border-radius:50px; */}
+.whatsAppBtn img{padding:2px;margin-right:12px;background-color:#3ca82b;border-radius:50px;animation:blinkWithColorImg 1.9s ease-in-out infinite}
 @media screen and (max-width:600px){
-.whatsAppBtn{width: 46px;bottom: 60px;right: 9px;}
+.whatsAppBtn{width:46px;bottom:60px;right:9px}
 }
