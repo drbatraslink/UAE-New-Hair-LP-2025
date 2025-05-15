@@ -380,29 +380,11 @@ ul.nptabbs{display:none}
 }
 .form-top-new{padding:15px 15px 0 15px}
 #form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
-.loader-span{position:absolute;right: 33px;}
-.loader-span img{width:25px;height:25px;margin-top: -66px;}
-
-.btn-verify {
-    height: calc(1.5em + .75rem + 2px);
-    margin-left: 5px;
-    font-weight: 700 !important;
-    font-size: 1em;
-    line-height: 1em;
-    background: #0c4679 !important;
-    color: #fff !important;
-    border: 1px solid #0c4679;
-    border-radius: .25rem !important;
-    transition: .5s;
-    outline: 0 !important;
-}
-
-.form-group .resend {
-    color: #154778;
-    font-size: 12px !important;
-    font-weight: 400 !important;
-    cursor: pointer;
-}
+.loader-span{position:absolute;right:33px}
+.loader-span img{width:25px;height:25px;margin-top:-66px}
+.btn-verify{height:calc(1.5em + .75rem + 2px);margin-left:5px;font-weight:700;font-size:1em;line-height:1em;background:#0c4679;color:#fff!important;border:1px solid #0c4679;border-radius:.25rem;transition:.5s;outline:0!important}
+.form-group .resend{color:#154778;font-size:12px;font-weight:400;cursor:pointer}
+.otp-cls-div{display:inline-flex;width:100%}
 
 
 /*==========================================*/
