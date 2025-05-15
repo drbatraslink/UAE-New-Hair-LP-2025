@@ -90,6 +90,14 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .percntageband-heading{font-size:24px;font-weight:700;color:#173d5b;margin-bottom:0;line-height:22px}
 .offer-new-para-css{margin-bottom:0;color:#212121;font-size:16px;line-height:normal;font-weight:500}
 .blue-band-padding-new-css img{width:50px;height:50px;margin-right:10px}
+@media(max-width:1480px){
+  .blue-band-offer-heading{font-size: 18px}
+  .banner-section .whatsapp-btn{font-size: 12px}
+  .blue-band-padding-new-css img{width: 36px; height: 36px}
+  .percntageband-heading{font-size: 21px;line-height: 18px}
+  .offer-new-para-css{font-size: 14px}
+
+}
 @media(max-width:1280px){
 .blue-band-padding-new-css{padding:8px}
 .offer-new-para-css{font-size:14px}
@@ -98,7 +106,7 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .blue-band-offer-heading{font-size:20px}
 }
 @media(max-width:1024px){
-.blue-band-padding-new-css img{width: 36px;height: 36px;margin-right:8px}
+.blue-band-padding-new-css img{width: 34px;height: 34px;margin-right:8px}
 .percntageband-heading{font-size: 18px;font-weight:700;color:#173d5b;margin-bottom:0;line-height:18px}
 .small_white_offer_offer{float:right;font-size:8px;font-weight:600;color:#212121;margin-top:0}
 .blue-band-offer-heading{font-size:16px}
@@ -118,6 +126,11 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 }
 @media(max-width:600px){
 .small_white_offer_offer{float:right;font-size:8px;font-weight:600;margin-bottom:0}
+}
+@media(max-width:360px){
+.banner-section .whatsapp-btn {
+        font-size: 10px;
+    }
 }
 
 /*==========================================*/
