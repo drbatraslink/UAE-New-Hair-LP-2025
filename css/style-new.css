@@ -60,14 +60,15 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 }
 .banner-section .whatsapp-btn span{
     animation: blinkWithColor 1.5s ease-in-out infinite;
+    font-weight: 600;
 }
 @keyframes blinkWithColor {
   0%, 100% {
-/*    opacity: 0.5;*/
+    opacity: 0.5;
     color: #25D366; /* WhatsApp green */
   }
   50% {
-/*    opacity: 1;*/
+    opacity: 1;
     color: #ffffff; /* Darker green or second color */
   }
 }
