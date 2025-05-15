@@ -34,16 +34,17 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .treatment_all_heading_page{font-size:24px}
 .treatment_all_heading_page small{font-size:18px}
 }
-.cta-btn{width:350px;text-align:center;margin:20px auto 0;padding:8px 20px;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);align-items:center;display:flex;justify-content:center;gap:4px;color:#fff;font-size:21px;font-weight:600;border-radius:8px;text-decoration:none; animation:blinkWithColorText 1.9s ease-in-out infinite;}
-.cta-btn .blink-text{font-weight: 700}
-@keyframes blinkWithColorText{
-0%,100%{ background: linear-gradient(135deg, #970000 0, #ed0202 25%, #f70000 50%, #ed0202 75%, #970000 100%); color: #ffffff; border:1px solid #ed0202;}
-50%{ background: transparent; color: #ed0202; border:1px solid #ed0202;}
+.cta-btn{width:350px;text-align:center;margin:20px auto 0;padding:8px 20px;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);display:flex;align-items:center;justify-content:center;gap:8px;color:#fff;font-size:21px;font-weight:700;border-radius:8px;text-decoration:none}
+.cta-btn img{animation:blinkBounce 1.9s ease-in-out infinite;display:inline-block;font-weight:700}
+.cta-btn{animation:blinkBounceBg 1.9s ease-in-out infinite;display:inline-block;font-weight:700}
+.blink-text{font-weight:700}
+@keyframes blinkBounce{
+0%,100%{transform:translateY(0);color:#fff;filter:brightness(0) invert(1)}
+50%{transform:translateY(-5px);color:#ed0202;filter:brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7480%) hue-rotate(1deg)}
 }
-.cta-btn img{animation:bounce 1.9s infinite}
-@keyframes bounce{
-0%,100%{transform:translateY(0);filter: brightness(0) invert(1);}
-50%{transform:translateY(-5px); filter: brightness(0) saturate(100%) invert(12%) sepia(98%) saturate(7500%) hue-rotate(0deg);}
+@keyframes blinkBounceBg{
+0%,100%{color:#fff;border:1px solid #ed0202}
+50%{border:1px solid #ed0202;background:0 0;color:#ed0202}
 }
 .cta-btn:hover{color:#fff}
 @media (max-width:600px){
