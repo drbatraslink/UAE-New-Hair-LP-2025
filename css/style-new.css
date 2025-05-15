@@ -40,11 +40,11 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .blink-text{font-weight:700}
 @keyframes blinkBounce{
 0%,100%{transform:translateY(0);color:#fff;filter:brightness(0) invert(1)}
-50%{transform:translateY(-5px);color:#ed0202;filter:brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7480%) hue-rotate(1deg)}
+50%{transform:translateY(-5px);color:#e41225;filter:brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(7480%) hue-rotate(1deg)}
 }
 @keyframes blinkBounceBg{
-0%,100%{color:#fff;border:1px solid #ed0202}
-50%{border:1px solid #ed0202;background:0 0;color:#ed0202}
+0%,100%{color:#fff;border:1px solid #e41225}
+50%{border:1px solid #e41225;background:0 0;color:#e41225}
 }
 .cta-btn:hover{color:#fff}
 @media (max-width:600px){
