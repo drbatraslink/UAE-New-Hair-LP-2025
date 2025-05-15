@@ -355,7 +355,7 @@ ul.nptabbs{display:none}
 .form-container .cancel{position:absolute;right:-12px;top:-22px;width:45px;height:45px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
 .form-container .btn:hover,.open-button:hover{opacity:1}
 @media (max-width:1480px){
-.contactForm .form_subhedign{font-size:21px}
+.contactForm .form_subhedign{font-size:18px}
 }
 @media (max-width:600px){
 .form_section{margin-top:30px}
