@@ -343,8 +343,8 @@ ul.nptabbs{display:none}
 .contactForm select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
 .contactForm select.form-control::-ms-expand{display:none}
 .contactForm .row{margin-bottom:1rem}
-.form-check{padding-left:20px;margin-top:5px}
-.contactForm .form-check-label{font-size:12px}
+.form-check{padding-left:16px;margin-top:5px}
+.contactForm .form-check-label{font-size:10px}
 .contactForm .form-check-label a{color:#0e74af}
 .contactForm .form-action{text-align:center;padding-top:15px}
 .btn-primary{outline:0;border:none;font-weight:400;text-transform:uppercase;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px;box-shadow:0 2px 5px rgba(0,0,0,.3)!important;transition:.5s;outline:0!important}
@@ -352,7 +352,7 @@ ul.nptabbs{display:none}
 .form-para-text{font-size:14px;font-weight:500}
 .form-select{color:#495057}
 .chat-popup .form_lable{font-size:14px;color:#173d5b;font-weight:600;margin-bottom:5px}
-.chat-popup .form-check-label{font-size:10px}
+.chat-popup .form-check-label{font-size:8px}
 .chat-popup .form-control,.form-select{height:40px;width:100%;outline:0;box-shadow:none;border-color:#d9d9d9;border-radius:6px;font-size:14px;padding:5px 10px}
 .chat-popup .form-control:focus{border-color:#0073ad}
 .chat-popup select.form-control{background:#fff url(../../image/hairloss_images_v2/arrow-down.webp) no-repeat right 10px center;appearance:none}
@@ -363,7 +363,7 @@ ul.nptabbs{display:none}
 .open-button{z-index:9;display:none;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);color:#fff;padding:10px 12px;border:none;cursor:pointer;position:fixed;bottom:18px;right:19px;width:250px;font-weight:500;font-size:18px;line-height:20px}
 .chat-popup{width:320px;display:none;position:fixed;bottom:0;right:15px;z-index:9}
 .form-container{background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.3);border-radius:0;padding:5px}
-.form-container .cancel{position:absolute;right:-12px;top:-22px;width:45px;height:45px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
+.form-container .cancel{position:absolute;right:-12px;top:-22px;width:45px;height:45px;background-color:#212121;padding:16px;line-height:10px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
 .form-container .btn:hover,.open-button:hover{opacity:1}
 @media (max-width:1480px){
 .contactForm .form_subhedign{font-size:18px}
@@ -376,8 +376,41 @@ ul.nptabbs{display:none}
 .contactForm .cta-btn{margin:20px 0 0;width:100%;padding:5px}
 .contactForm .treatment_all_heading_page{text-align:center}
 .chat-popup .form_subhedign,.contactForm .form_subhedign{font-size:18px;text-align:center;color:#986b02;line-height:normal;font-weight:700}
+.contactForm .form-check-label{font-size:8px}
 }
 .form-top-new{padding:15px 15px 0 15px}
 #form-area-scroll{transition:margin-top .3s ease;scroll-margin-top:60px}
+.loader-span{position:absolute;right: 33px;}
+.loader-span img{width:25px;height:25px;margin-top: -66px;}
+
+.btn-verify {
+    height: calc(1.5em + .75rem + 2px);
+    margin-left: 5px;
+    font-weight: 700 !important;
+    font-size: 1em;
+    line-height: 1em;
+    background: #0c4679 !important;
+    color: #fff !important;
+    border: 1px solid #0c4679;
+    border-radius: .25rem !important;
+    transition: .5s;
+    outline: 0 !important;
+}
+
+.form-group .resend {
+    color: #154778;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+}
 
 
+/*==========================================*/
+/* back to top css*/
+/*==========================================*/
+.whatsAppBtn{border:none;border-radius:50%;color:#fff;cursor:pointer;font-size:30px!important;/* line-height:52px; */width:48px;position:fixed;bottom:20px;right:10px;z-index:100;opacity:0;transform:translateY(100px);/* transition:all .5s ease; */box-shadow:0 4px 15px rgb(175 173 173 / 18%);}
+.whatBtn{opacity:1;transform:translateY(0)}
+.whatsAppBtn img{/* padding:10px; *//* margin-right:12px; *//* background-color:#25D366; *//* border-radius:50px; */}
+@media screen and (max-width:600px){
+.whatsAppBtn{width: 46px;bottom: 60px;right: 9px;}
+}
