@@ -34,7 +34,12 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .treatment_all_heading_page{font-size:24px}
 .treatment_all_heading_page small{font-size:18px}
 }
-.cta-btn{width:350px;text-align:center;margin:20px auto 0;padding:8px 20px;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);align-items:center;display:block;gap:4px;color:#fff;font-size:21px;font-weight:600;border-radius:8px}
+.cta-btn{width:350px;text-align:center;margin:20px auto 0;padding:8px 20px;background:linear-gradient(135deg,#970000 0,#ed0202 25%,#f70000 50%,#ed0202 75%,#970000 100%);align-items:center;display:flex;justify-content:center;gap:4px;color:#fff;font-size:21px;font-weight:600;border-radius:8px;text-decoration:none}
+.cta-btn .blink-text{animation:blinkWithColorText 1.9s ease-in-out infinite;font-weight:600}
+@keyframes blinkWithColorText{
+0%,100%{opacity:1}
+50%{opacity:.5}
+}
 @keyframes bounce{
 0%,100%{transform:translateY(0)}
 50%{transform:translateY(-5px)}
