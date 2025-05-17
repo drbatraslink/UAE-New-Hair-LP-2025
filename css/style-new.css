@@ -17,10 +17,28 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .terms-con-font-cls{color:#1a75ac}
 .carousel-indicators li{background-color:#2876a9;opacity:1}
 .carousel-indicators .active{background-color:#e41225;opacity:1}
-.head-main-tel{color:#212121;font-weight:500;text-decoration:none;margin-bottom:0}
+.head-main-tel{padding:6px 15px;float:right;color:#0c4679; font-weight: 600; border:1px solid #0c4679;border-radius:25px;line-height:normal; font-size: 24px; text-decoration:none;margin-bottom:0;animation:blinkWithColorHed 1.9s ease-in-out infinite;}
 .head-main-tel:hover{color:#173b63;text-decoration:none}
-.headerno-cls{font-size:24px;font-weight:400;color:#0c4679;margin-bottom:0;float:right;border:1px solid #0c4679;padding:6px 15px;border-radius:25px;line-height:normal}
-.mobile-call-icon{border:1px solid #212121;text-align:center;padding:6px;border-radius:20px;width:36px;height:36px;line-height:22px;float:right}
+.head-main-tel img{animation:blinkWithColorHedImg 1.9s ease-in-out infinite;}
+/*.headerno-cls{font-size:24px;font-weight:400;color:#0c4679;margin-bottom:0;float:right;border:1px solid #0c4679;padding:6px 15px;border-radius:25px;line-height:normal;}*/
+@keyframes blinkWithColorHed{
+0%,100%{ background-color: transparent;}
+50%{background-color: #0c4679; color: #ffffff;}
+}
+@keyframes blinkWithColorHedImg{
+0%,100%{ filter: none;}
+50%{ filter:brightness(0) invert(1)}
+}
+.mobile-call-icon{border:1px solid #0c4679;text-align:center;padding:6px;border-radius:20px;width:36px;height:36px;line-height:19px;float:right;animation:blinkWithColorHedMImg 1.9s ease-in-out infinite;}
+.mobile-call-icon img{animation:blinkWithColorHedImgM 1.9s ease-in-out infinite;}
+@keyframes blinkWithColorHedMImg{
+0%,100%{ background-color: #0c4679; }
+50%{ background-color: #ffffff;}
+}
+@keyframes blinkWithColorHedImgM{
+0%,100%{  filter:brightness(0) invert(1)}
+50%{filter: none; }
+}
 .treatment_all_heading_page{margin-bottom:10px;font-size:32px;color:#212121;font-weight:300;text-align:center}
 .treatment_all_heading_page small{font-size:21px}
 .treatment_all_heading_page span{color:#173d5b;font-weight:600}
@@ -199,8 +217,8 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .treatment_all_comm_div.our_doctors_slider_section{padding-top:40px}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-dots{display:none}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item{background-color:#f2f2f2;border-radius:16px;text-align:center;padding:30px 15px}
-.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_name{font-size:21px;color:#173d5b;font-weight:600;margin-bottom:15px;margin-top:20px}
-.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_designation{color:#212121;font-size:18px;font-weight:600;margin-bottom:10px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_name{font-size:21px;color:#173d5b;font-weight: 700;margin-bottom: 0px;margin-top:20px}
+.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_designation{color:#212121;font-size: 17px;font-weight:600;margin-bottom: 5px;margin-top: 15px;}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item .doctors_para{font-size:16px;color:#212121;margin-bottom:5px}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-item img{width:150px;height:150px;margin:auto;background-color:#d8c495;border:7px solid #e8e0cd}
 .treatment_all_comm_div .doctors_slider .owl-prev,.treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next{position:absolute;top:-5px;height:100%}
@@ -216,7 +234,6 @@ header{background:#fff;position:fixed;top:0;z-index:1000!important}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-prev{left:0}
 .treatment_all_comm_div.our_doctors_slider_section .doctors_slider .owl-next{right:0}
 }
-
 /*==========================================*/
 /* Clinic Slider css*/
 /*==========================================*/
@@ -330,9 +347,9 @@ ul.nptabbs{display:none}
 .footerLink ul li:last-child a:after{content:none;display:none}
 .social-media a{padding:5px;margin:0 5px;font-weight:500}
 @media (max-width:575.98px){
-.footer{margin-bottom:52px}
+.footer{margin-bottom:52px;padding: 0 0 15px}
 .footerLink ul li:nth-child(2) a:after{content:none;display:none}
-.footerLink ul li a{display:inline-block;color:#fff;font-weight:500;padding:3px 15px;position:relative;text-decoration:none;font-size:14px}
+.footerLink ul li a{display:inline-block;color:#fff;font-weight:500;padding:3px 18px;position:relative;text-decoration:none;font-size:14px}
 }
 
 /*==========================================*/
